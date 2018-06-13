@@ -1,4 +1,3 @@
-
 #Pr{
   font-size: 90px;
   margin-left: 10px;
@@ -6,11 +5,14 @@
   padding: 14px;
   background: #F50057;
 }
+#forall{
+  margin: 70px;
+}
 body {
         font-size: 60px;
       }
       #col{
-        background: #80CBC4;
+        background: #FFF9C4;
         padding: 2px;
       }
       #im{
@@ -38,6 +40,7 @@ body {
       #rt{
         margin-right: 0px;
         font-size: 20px;
+        font-size: 25px;
       }
       #ch{
         font-size: 50px;
@@ -46,7 +49,7 @@ body {
       }
 #i{ border: 4px solid #651FFF;
 size: 150px;
-    margin-left:200px;}
+    }
     .container{
       background: black;
     }
@@ -80,13 +83,34 @@ h3{
   text-decoration:underline;
   text-decoration-color:#004D40;
 }
+#sm
+{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.zoom {
+    padding: 7px;
+    background-color: #9E9E9E;
+    transition: transform .2s; /* Animation */
+    width: 320px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 ul {
     line-height:32px;
-    margin-left: 10px;
+    margin-left: 20px;
+    font-size: 25px;
     }
 ol {
     line-height:42px;
-    margin-left: 10px;}
+    font-size: 25px;
+    margin-left: 20px;}
 footer{ background-color:#D500F9;
         color:white;
         font-size:33px;
